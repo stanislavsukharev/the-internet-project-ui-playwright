@@ -1,0 +1,19 @@
+{
+  "name": "the-real-internet-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "playwright": "^1.47.2",
+    "typescript": "^5.6.2"
+  }
+}

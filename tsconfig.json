@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",             // Target modern JavaScript
+    "module": "commonjs",           // Use CommonJS for module system
+    "strict": true,                 // Enable strict type-checking options
+    "esModuleInterop": true,        // Enable interoperability between CommonJS and ES Modules
+    "skipLibCheck": true,           // Skip type checking of all declaration files
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "tests/**/*.ts"                 // Adjust this to match your folder structure
+  ]
+}
